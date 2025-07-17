@@ -11,7 +11,7 @@ import { HumidityGauge } from "@/components/humidity-gauge" // Importar el nuevo
 
 // ¡ADVERTENCIA! Hardcodear tokens directamente en el código no es seguro para producción.
 // Para una aplicación real, usa variables de entorno como process.env.NEXT_PUBLIC_BLYNK_TOKEN
-const TOKEN = "null" // <-- Aquí está el token
+const TOKEN = null // Cambiado a null para evitar solicitudes a la API
 
 interface HistoryEntry {
   timestamp: string
